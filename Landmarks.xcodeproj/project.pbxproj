@@ -16,6 +16,7 @@
 		225B69962C1CFCEA001B4E10 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 225B69952C1CFCEA001B4E10 /* landmarkData.json */; };
 		225B69982C1CFCF8001B4E10 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B69972C1CFCF8001B4E10 /* Landmark.swift */; };
 		225B699A2C1CFD12001B4E10 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B69992C1CFD12001B4E10 /* ModelData.swift */; };
+		225B699F2C1CFDB7001B4E10 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B699E2C1CFDB7001B4E10 /* LandmarkRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		225B69952C1CFCEA001B4E10 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		225B69972C1CFCF8001B4E10 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		225B69992C1CFD12001B4E10 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		225B699E2C1CFDB7001B4E10 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				225B69852C1CF6D0001B4E10 /* ContentView.swift */,
 				225B69912C1CF9EF001B4E10 /* CircleImage.swift */,
 				225B69932C1CFA3C001B4E10 /* MapView.swift */,
+				225B699E2C1CFDB7001B4E10 /* LandmarkRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				225B69842C1CF6D0001B4E10 /* LandmarksApp.swift in Sources */,
 				225B69922C1CF9EF001B4E10 /* CircleImage.swift in Sources */,
 				225B69982C1CFCF8001B4E10 /* Landmark.swift in Sources */,
+				225B699F2C1CFDB7001B4E10 /* LandmarkRow.swift in Sources */,
 				225B699A2C1CFD12001B4E10 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
