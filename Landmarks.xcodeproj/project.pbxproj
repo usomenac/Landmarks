@@ -60,6 +60,8 @@
 		225F14A82C1DE37900867017 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B7A352C1D366100DB5184 /* Profile.swift */; };
 		225F14A92C1DE37900867017 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B69972C1CFCF8001B4E10 /* Landmark.swift */; };
 		225F14AB2C1DE41400867017 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225F14AA2C1DE41400867017 /* LandmarkDetail.swift */; };
+		225F14AD2C1DE55D00867017 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225F14AC2C1DE55D00867017 /* NotificationView.swift */; };
+		225F14AF2C1DE56D00867017 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225F14AE2C1DE56D00867017 /* NotificationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +131,9 @@
 		225F14922C1DE0DE00867017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		225F14952C1DE0DE00867017 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		225F14AA2C1DE41400867017 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		225F14AC2C1DE55D00867017 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		225F14AE2C1DE56D00867017 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		225F14B02C1DE61B00867017 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +308,9 @@
 			children = (
 				225F14902C1DE0DD00867017 /* ContentView.swift */,
 				225F14AA2C1DE41400867017 /* LandmarkDetail.swift */,
+				225F14AC2C1DE55D00867017 /* NotificationView.swift */,
+				225F14AE2C1DE56D00867017 /* NotificationController.swift */,
+				225F14B02C1DE61B00867017 /* PushNotificationPayload.apns */,
 				225F14922C1DE0DE00867017 /* Assets.xcassets */,
 				225F14942C1DE0DE00867017 /* Preview Content */,
 			);
@@ -472,8 +480,10 @@
 				225F14A62C1DE37900867017 /* CircleImage.swift in Sources */,
 				225F14A72C1DE37900867017 /* Hike.swift in Sources */,
 				225F14A82C1DE37900867017 /* Profile.swift in Sources */,
+				225F14AF2C1DE56D00867017 /* NotificationController.swift in Sources */,
 				225F14A92C1DE37900867017 /* Landmark.swift in Sources */,
 				225F14AB2C1DE41400867017 /* LandmarkDetail.swift in Sources */,
+				225F14AD2C1DE55D00867017 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
