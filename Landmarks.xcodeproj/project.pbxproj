@@ -81,6 +81,7 @@
 		2290762A2C1DF52600783409 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229076292C1DF52600783409 /* LandmarkList.swift */; };
 		2290762C2C1DFBDA00783409 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2290762B2C1DFBDA00783409 /* LandmarkCommands.swift */; };
 		2290762D2C1DFBDE00783409 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2290762B2C1DFBDA00783409 /* LandmarkCommands.swift */; };
+		2290762F2C1DFCC200783409 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2290762E2C1DFCC200783409 /* LandmarkSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		229076272C1DF44F00783409 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		229076292C1DF52600783409 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		2290762B2C1DFBDA00783409 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		2290762E2C1DFCC200783409 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +370,7 @@
 				2290760F2C1DF2F100783409 /* ContentView.swift */,
 				229076272C1DF44F00783409 /* LandmarkDetail.swift */,
 				2290762B2C1DFBDA00783409 /* LandmarkCommands.swift */,
+				2290762E2C1DFCC200783409 /* LandmarkSettings.swift */,
 				229076112C1DF2F200783409 /* Assets.xcassets */,
 				229076162C1DF2F200783409 /* MacLandmarks.entitlements */,
 				229076132C1DF2F200783409 /* Preview Content */,
@@ -585,6 +588,7 @@
 			files = (
 				2290761D2C1DF35500783409 /* Hike.swift in Sources */,
 				2290761E2C1DF35500783409 /* LandmarkList.swift in Sources */,
+				2290762F2C1DFCC200783409 /* LandmarkSettings.swift in Sources */,
 				2290761F2C1DF35500783409 /* CircleImage.swift in Sources */,
 				229076202C1DF35500783409 /* Profile.swift in Sources */,
 				2290762C2C1DFBDA00783409 /* LandmarkCommands.swift in Sources */,
