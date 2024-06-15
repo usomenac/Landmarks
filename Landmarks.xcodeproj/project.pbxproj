@@ -42,6 +42,7 @@
 		225F146E2C1DD1FB00867017 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225F146D2C1DD1FB00867017 /* PageViewController.swift */; };
 		225F14702C1DD22000867017 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225F146F2C1DD22000867017 /* FeatureCard.swift */; };
 		225F14722C1DD22A00867017 /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225F14712C1DD22A00867017 /* PageView.swift */; };
+		225F14742C1DD6CE00867017 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225F14732C1DD6CE00867017 /* PageControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		225F146D2C1DD1FB00867017 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		225F146F2C1DD22000867017 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
 		225F14712C1DD22A00867017 /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		225F14732C1DD6CE00867017 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -236,6 +238,7 @@
 				225F146D2C1DD1FB00867017 /* PageViewController.swift */,
 				225F146F2C1DD22000867017 /* FeatureCard.swift */,
 				225F14712C1DD22A00867017 /* PageView.swift */,
+				225F14732C1DD6CE00867017 /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 				225B7A272C1D281900DB5184 /* GraphCapsule.swift in Sources */,
 				225B7A2B2C1D282700DB5184 /* HikeGraph.swift in Sources */,
 				225B69842C1CF6D0001B4E10 /* LandmarksApp.swift in Sources */,
+				225F14742C1DD6CE00867017 /* PageControl.swift in Sources */,
 				225B69A52C1D19D7001B4E10 /* FavoriteButton.swift in Sources */,
 				225B7A342C1D338600DB5184 /* CategoryItem.swift in Sources */,
 				225B69A92C1D1C1F001B4E10 /* HexagonParameters.swift in Sources */,
