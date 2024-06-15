@@ -78,6 +78,7 @@
 		229076242C1DF35500783409 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B69972C1CFCF8001B4E10 /* Landmark.swift */; };
 		229076252C1DF35500783409 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B699E2C1CFDB7001B4E10 /* LandmarkRow.swift */; };
 		229076262C1DF35500783409 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225B69932C1CFA3C001B4E10 /* MapView.swift */; };
+		229076282C1DF44F00783409 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229076272C1DF44F00783409 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,7 @@
 		229076112C1DF2F200783409 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		229076142C1DF2F200783409 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		229076162C1DF2F200783409 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		229076272C1DF44F00783409 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				2290760F2C1DF2F100783409 /* ContentView.swift */,
+				229076272C1DF44F00783409 /* LandmarkDetail.swift */,
 				229076112C1DF2F200783409 /* Assets.xcassets */,
 				229076162C1DF2F200783409 /* MacLandmarks.entitlements */,
 				229076132C1DF2F200783409 /* Preview Content */,
@@ -577,6 +580,7 @@
 				2290761E2C1DF35500783409 /* LandmarkList.swift in Sources */,
 				2290761F2C1DF35500783409 /* CircleImage.swift in Sources */,
 				229076202C1DF35500783409 /* Profile.swift in Sources */,
+				229076282C1DF44F00783409 /* LandmarkDetail.swift in Sources */,
 				229076212C1DF35500783409 /* ModelData.swift in Sources */,
 				229076222C1DF35500783409 /* LandmarksApp.swift in Sources */,
 				229076232C1DF35500783409 /* FavoriteButton.swift in Sources */,
