@@ -116,7 +116,7 @@
 				225B69A62C1D1A1E001B4E10 /* Landmarks */,
 				225B69B22C1D25A5001B4E10 /* Badges */,
 				225B7A252C1D280000DB5184 /* Hikes */,
-				225B69A72C1D1A2D001B4E10 /* Helper */,
+				225B69A72C1D1A2D001B4E10 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -150,14 +150,14 @@
 			path = Landmarks;
 			sourceTree = "<group>";
 		};
-		225B69A72C1D1A2D001B4E10 /* Helper */ = {
+		225B69A72C1D1A2D001B4E10 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
 				225B69912C1CF9EF001B4E10 /* CircleImage.swift */,
 				225B69932C1CFA3C001B4E10 /* MapView.swift */,
 				225B69A42C1D19D7001B4E10 /* FavoriteButton.swift */,
 			);
-			path = Helper;
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		225B69B22C1D25A5001B4E10 /* Badges */ = {
