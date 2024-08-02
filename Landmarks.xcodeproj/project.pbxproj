@@ -60,6 +60,8 @@
 		22722C682C5CA22D006975E6 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22722C342C5C8B62006975E6 /* Profile.swift */; };
 		22722C692C5CA22D006975E6 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22186F3F2C5C621300C7FB80 /* LandmarkList.swift */; };
 		22722C6B2C5CA265006975E6 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22722C6A2C5CA265006975E6 /* LandmarkDetail.swift */; };
+		22722C6D2C5CA381006975E6 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22722C6C2C5CA381006975E6 /* NotificationView.swift */; };
+		22722C6F2C5CA393006975E6 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22722C6E2C5CA393006975E6 /* NotificationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +131,9 @@
 		22722C522C5CA053006975E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22722C552C5CA053006975E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22722C6A2C5CA265006975E6 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		22722C6C2C5CA381006975E6 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		22722C6E2C5CA393006975E6 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		22722C702C5CA42A006975E6 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +308,9 @@
 			children = (
 				22722C502C5CA052006975E6 /* ContentView.swift */,
 				22722C6A2C5CA265006975E6 /* LandmarkDetail.swift */,
+				22722C6C2C5CA381006975E6 /* NotificationView.swift */,
+				22722C6E2C5CA393006975E6 /* NotificationController.swift */,
+				22722C702C5CA42A006975E6 /* PushNotificationPayload.apns */,
 				22722C522C5CA053006975E6 /* Assets.xcassets */,
 				22722C542C5CA053006975E6 /* Preview Content */,
 			);
@@ -472,8 +480,10 @@
 				22722C662C5CA22D006975E6 /* LandmarksApp.swift in Sources */,
 				22722C672C5CA22D006975E6 /* Landmark.swift in Sources */,
 				22722C682C5CA22D006975E6 /* Profile.swift in Sources */,
+				22722C6F2C5CA393006975E6 /* NotificationController.swift in Sources */,
 				22722C692C5CA22D006975E6 /* LandmarkList.swift in Sources */,
 				22722C6B2C5CA265006975E6 /* LandmarkDetail.swift in Sources */,
+				22722C6D2C5CA381006975E6 /* NotificationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
