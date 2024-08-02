@@ -81,6 +81,7 @@
 		22722C942C5CA8D1006975E6 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22722C932C5CA8D1006975E6 /* LandmarkList.swift */; };
 		22722C962C5CAA7B006975E6 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22722C952C5CAA7B006975E6 /* LandmarkCommands.swift */; };
 		22722C972C5CAA7B006975E6 /* LandmarkCommands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22722C952C5CAA7B006975E6 /* LandmarkCommands.swift */; };
+		22722C992C5CAB9C006975E6 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22722C982C5CAB9C006975E6 /* LandmarkSettings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -161,6 +162,7 @@
 		22722C912C5CA7FE006975E6 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		22722C932C5CA8D1006975E6 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		22722C952C5CAA7B006975E6 /* LandmarkCommands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCommands.swift; sourceTree = "<group>"; };
+		22722C982C5CAB9C006975E6 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -368,6 +370,7 @@
 				22722C792C5CA734006975E6 /* ContentView.swift */,
 				22722C912C5CA7FE006975E6 /* LandmarkDetail.swift */,
 				22722C952C5CAA7B006975E6 /* LandmarkCommands.swift */,
+				22722C982C5CAB9C006975E6 /* LandmarkSettings.swift */,
 				22722C7B2C5CA735006975E6 /* Assets.xcassets */,
 				22722C802C5CA735006975E6 /* MacLandmarks.entitlements */,
 				22722C7D2C5CA735006975E6 /* Preview Content */,
@@ -585,6 +588,7 @@
 			files = (
 				22722C842C5CA7A5006975E6 /* Landmark.swift in Sources */,
 				22722C852C5CA7A5006975E6 /* LandmarksApp.swift in Sources */,
+				22722C992C5CAB9C006975E6 /* LandmarkSettings.swift in Sources */,
 				22722C862C5CA7A5006975E6 /* ModelData.swift in Sources */,
 				22722C872C5CA7A5006975E6 /* Hike.swift in Sources */,
 				22722C972C5CAA7B006975E6 /* LandmarkCommands.swift in Sources */,
