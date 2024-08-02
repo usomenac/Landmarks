@@ -78,6 +78,7 @@
 		22722C8E2C5CA7A5006975E6 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 22186F342C5C5FB500C7FB80 /* landmarkData.json */; };
 		22722C8F2C5CA7A5006975E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22186F262C5B632E00C7FB80 /* Assets.xcassets */; };
 		22722C902C5CA7A5006975E6 /* hikeData.json in Resources */ = {isa = PBXBuildFile; fileRef = 22722C202C5C8368006975E6 /* hikeData.json */; };
+		22722C922C5CA7FE006975E6 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22722C912C5CA7FE006975E6 /* LandmarkDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -155,6 +156,7 @@
 		22722C7B2C5CA735006975E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22722C7E2C5CA735006975E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		22722C802C5CA735006975E6 /* MacLandmarks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacLandmarks.entitlements; sourceTree = "<group>"; };
+		22722C912C5CA7FE006975E6 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +361,7 @@
 			isa = PBXGroup;
 			children = (
 				22722C792C5CA734006975E6 /* ContentView.swift */,
+				22722C912C5CA7FE006975E6 /* LandmarkDetail.swift */,
 				22722C7B2C5CA735006975E6 /* Assets.xcassets */,
 				22722C802C5CA735006975E6 /* MacLandmarks.entitlements */,
 				22722C7D2C5CA735006975E6 /* Preview Content */,
@@ -577,6 +580,7 @@
 				22722C852C5CA7A5006975E6 /* LandmarksApp.swift in Sources */,
 				22722C862C5CA7A5006975E6 /* ModelData.swift in Sources */,
 				22722C872C5CA7A5006975E6 /* Hike.swift in Sources */,
+				22722C922C5CA7FE006975E6 /* LandmarkDetail.swift in Sources */,
 				22722C882C5CA7A5006975E6 /* CircleImage.swift in Sources */,
 				22722C892C5CA7A5006975E6 /* MapView.swift in Sources */,
 				22722C8A2C5CA7A5006975E6 /* Profile.swift in Sources */,
